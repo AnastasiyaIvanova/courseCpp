@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-using namespace std;//Circle, cube, ball
+using namespace std;
 class Figure
 {
 protected:
