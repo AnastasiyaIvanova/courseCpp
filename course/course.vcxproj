@@ -154,6 +154,11 @@
     <ClCompile Include="course.cpp" />
     <ClCompile Include="four.cpp" />
     <ClCompile Include="second.cpp" />
+    <ClCompile Include="second_two.cpp" />
+    <ClCompile Include="six.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="my_vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
