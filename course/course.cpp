@@ -1,41 +1,10 @@
 ﻿//#include <iostream>
 //#include <string>
 //using namespace std;
-// class Example
-//{
-//public:
-//	int length;
-//	char* data;
-//	Example() {};
-//	Example(const char* data, int length)
-//	{
-//		this->data = new char[length];
-//		for (int i = 0; i < length; i++)
-//		{
-//			this->data[i] = data[i];
-//		}
-//		this->length = length;
-//	}
-//	~Example()
-//	{
-//		delete[] data;
-//	}
-//	Example& operator=(Example& c)
-//	{
-//		cout << "=overloading" << endl;
-//		this->data = new char[c.length];
-//		for (int i = 0; i < c.length; i++)
-//		{
-//			this->data[i] = c.data[i];
-//		}
-//		this->length = c.length;
-//		return *this;
-//	}
-//};
 //class Numb
 //{
 //private:
-//	int num, den;
+//	int num, den;//int _num = 0, int _den = 0
 //public:
 //	Numb(int _num = 0, int _den = 0)
 //	{
