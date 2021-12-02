@@ -14,11 +14,6 @@ public:
 		capacity = 1;
 		size = 0;
 	}
-	/*~MyVector()
-	{
-		delete[] arr;
-	}*/
-
 	MyVector& operator=(MyVector& v)
 	{
 		this->arr = new char[v.length];
@@ -125,7 +120,6 @@ public:
 				new_vector[i] = arr[i];
 				delete[] arr;
 			}
-			//m_allocator.deallocate(arr, capacity);//???
 			arr = new_vector;
 			capacity = new_capacity;
 		}
@@ -137,11 +131,11 @@ public:
 			return arr[index];
 		}
 	}
-	int size()
+	int get_size()
 	{
 		return size;
 	}
-	int capacity()
+	int get_capacity()
 	{
 		return capacity;
 	}
